@@ -1,0 +1,44 @@
+/* For text area */
+ion-textarea.custom-textarea {
+    --background: #373737;
+    --color: #fff;
+    --padding-end: 10px;
+    --padding-start: 10px;
+    --placeholder-color: #ddd;
+    --placeholder-opacity: 0.8;
+  }
+
+@font-face {   
+font-family: 'Spline Sans Mono'; 
+src: url('/workspaces/codespaces-blank/test-app/public/assets/fonts/SplineSansMono-Light.ttf');
+}
+
+@font-face {   
+font-family: 'Spline Sans Mono Medium'; 
+src: url('/workspaces/codespaces-blank/test-app/public/assets/fonts/SplineSansMono-Medium.ttf');
+}
+
+ion-content{ 
+    font-family:Spline Sans Mono !important;
+    font-size:1.1em;
+  }
+
+ion-textarea{
+    font-family:Spline Sans Mono !important;
+    font-size:1.1em;
+}
+
+ion-title{
+    font-family:Spline Sans Mono Medium !important;
+    font-size:1.1em;
+}
+
+ion-button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ion-label{
+    font-family:Spline Sans Mono Medium !important;
+    font-size:1.1em;
+}
