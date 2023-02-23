@@ -8,3 +8,18 @@
 ion-content {
     overflow:hidden;
 }
+
+.applogo {
+  height: 80px;
+  width: 80px;
+}
+
+@font-face {   
+  font-family: 'Spline Sans Mono'; 
+  src: url('/workspaces/codespaces-blank/test-app/public/assets/fonts/SplineSansMono-Light.ttf');
+  }
+
+ion-text {
+  font-family:Spline Sans Mono !important;
+    font-size:1.1em;
+}

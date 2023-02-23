@@ -10,6 +10,7 @@ import { IonLabel, IonList, IonToggle } from '@ionic/react';
 import { IonAvatar, IonChip } from '@ionic/react';
 import { IonFab, IonFabButton } from '@ionic/react';
 import { add } from 'ionicons/icons';
+import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle } from '@ionic/react';
 
 const Home: React.FC = () => {
   return (
@@ -78,6 +79,35 @@ const Home: React.FC = () => {
           <p>How can I help you ?</p>
           <IonTextarea className="custom-textarea" placeholder="Type your question" autoGrow={true}></IonTextarea>
           <IonButton shape="round">Search</IonButton>
+          <IonRow>
+            {/* Card 1 */}
+            <IonCard color = "danger">
+              <IonCardContent>
+                Generate Answer
+              </IonCardContent>
+            </IonCard>
+
+            {/* Card 2 */}
+            <IonCard color = "danger">
+              <IonCardContent>
+                Grammar
+              </IonCardContent>
+            </IonCard>
+
+            {/* Card 3 */}
+            <IonCard color = "danger">
+              <IonCardContent>
+                Generate Summary
+              </IonCardContent>
+            </IonCard>
+
+            {/* Card 4 */}
+            <IonCard color = "danger">
+              <IonCardContent>
+                Coming Soon...
+              </IonCardContent>
+            </IonCard>
+          </IonRow>
         </IonContent>
       </IonPage>
       
