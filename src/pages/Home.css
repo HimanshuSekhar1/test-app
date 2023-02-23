@@ -42,3 +42,7 @@ ion-label{
     font-family:Spline Sans Mono Medium !important;
     font-size:1.1em;
 }
+
+#main-content {
+    overflow:hidden;
+}
